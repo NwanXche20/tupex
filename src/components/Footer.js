@@ -26,6 +26,7 @@ const Footer = () => {
           <ul className="nav-lists">
             <NavItem to="/">Home</NavItem>
             <NavItem to="/photos">photos</NavItem>
+            <NavItem to="/contact">contact</NavItem>
           </ul>
         </div>
       </div>

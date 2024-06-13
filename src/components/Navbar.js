@@ -27,6 +27,7 @@ const Navbar = () => {
         <ul className="nav-lists">
           <NavItem to="/">Home</NavItem>
           <NavItem to="/photos">photos</NavItem>
+          <NavItem to="/contact">contact</NavItem>
         </ul>
 
         <a
@@ -64,6 +65,9 @@ const Navbar = () => {
           </NavItem>
           <NavItem to="/photos" onClick={() => setShowNav(!showNav)}>
             photos
+          </NavItem>
+          <NavItem to="/contact" onClick={() => setShowNav(!showNav)}>
+            contact
           </NavItem>
         </ul>
 
